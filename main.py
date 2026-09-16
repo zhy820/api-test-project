@@ -43,12 +43,17 @@ def counter():
 
 # 按装订区域中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    a = [0,1,2,3,4,5,6,7,8,9]
+    #a = [0,1,2,3,4,5,6,7,8,9]
     #enumerate_test()
     #funA()
     #ex = Example()
     #ex.print_x()
-    counter()
+    #counter()
+    #a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    #print(a[:6:-1])
+    fruits = ['apple', 'banana', 'cherry']
+    for index, value in enumerate(fruits):
+        print(f"{index}: {value}")  # 输出:# 0: apple# 1: banana# 2: cherry
 
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
