@@ -1,0 +1,6 @@
+base:
+  url: "https://httpbin.org"
+
+user:
+  username: "admin"
+  password: "admin123"
