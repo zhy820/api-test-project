@@ -24,7 +24,7 @@ LOG_FILE = os.path.join(LOG_DIR, f"test_{timestamp}.log")
 logging.basicConfig(
     #level=logging.INFO,
     level=logging.DEBUG,
-    format='%(asctime)s %(levelname)s %(message)s',
+    format='%(asctime)s %(levelname)s %(name)s ---  %(message)s',
 
     handlers=[
         #输出到文件，指定文件格式，避免输出乱码

@@ -1,0 +1,39 @@
+2026-09-20 14:08:49,709 INFO 请求：GET https://httpbin.org/get，参数：None
+2026-09-20 14:08:49,712 DEBUG Starting new HTTPS connection (1): httpbin.org:443
+2026-09-20 14:08:52,477 DEBUG https://httpbin.org:443 "GET /get HTTP/1.1" 200 307
+2026-09-20 14:08:54,206 INFO 响应： 200，耗时：2.76734秒，响应内容：{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.34.2", 
+    "X-Amzn-Trace-Id": "Root=1-6aaf7876-21d8e9bc1baaa71713f70c2e"
+  }, 
+  "origin": "125.70.16.219", 
+  "url": "https://httpbin.org/get"
+}
+
+2026-09-20 14:08:54,215 INFO 请求：POST https://httpbin.org/post，参数：{'username': 'admin'}
+2026-09-20 14:08:54,480 DEBUG https://httpbin.org:443 "POST /post HTTP/1.1" 200 491
+2026-09-20 14:08:54,480 INFO 响应： 200，耗时：0.263757秒，响应内容：{
+  "args": {}, 
+  "data": "{\"username\": \"admin\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "21", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.34.2", 
+    "X-Amzn-Trace-Id": "Root=1-6aaf7878-53a91440620100164cbbd274"
+  }, 
+  "json": {
+    "username": "admin"
+  }, 
+  "origin": "125.70.16.219", 
+  "url": "https://httpbin.org/post"
+}
+

@@ -1,8 +1,6 @@
 import os
 import yaml
 
-from parametrize import BASE_URL
-
 CONFIG_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_FILE = os.path.join(CONFIG_DIR, 'config.yaml')
 

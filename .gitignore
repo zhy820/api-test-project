@@ -5,3 +5,6 @@ __pycache__/
 allure-results/
 allure-report/
 .idea/
+logs/
+*.log
+config/config.yaml
