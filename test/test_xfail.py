@@ -11,6 +11,7 @@ def test_must_fail():
 
 @pytest.mark.xfail(sys.platform== "win32", reason="Windows平台下已知bug")
 def test_platform_specific():
+
     assert 1 == 2
 
 def test_normal():
