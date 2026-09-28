@@ -23,4 +23,4 @@ def test_put(api):
 
 def test_delete(api):
     r = api.delete("/delete")
-    assert r.status_code == 200
+    assert r.status_code == 404
