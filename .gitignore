@@ -8,3 +8,4 @@ allure-report/
 logs/
 *.log
 config/config.yaml
+report.html

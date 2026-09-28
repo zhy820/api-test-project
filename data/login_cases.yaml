@@ -1,0 +1,11 @@
+- username: "admin"
+  password: "admin123"
+  expected_status: 200
+
+- username: "user1"
+  password: "password1"
+  expected_status: 200
+
+- username: "user2"
+  password: "password2"
+  expected_status: 200

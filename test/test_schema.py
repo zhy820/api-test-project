@@ -1,7 +1,8 @@
 import json
 import pytest
 import requests
-from jsconschema import validate, ValidationError
+from jsonschema import validate, ValidationError
+
 
 BASE_URL = "https://httpbin.org"
 
